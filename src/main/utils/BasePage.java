@@ -6,7 +6,6 @@ import java.util.concurrent.TimeUnit;
 
 public class BasePage {
 
-    protected static final String LINK_ADDRESS = "http://google.pl";
     protected static final long IMPLICITLY_WAIT_TIME = 10;
     protected static final long PAGE_LOAD_TIME = 30;
 

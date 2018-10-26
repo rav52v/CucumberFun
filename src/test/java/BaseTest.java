@@ -15,7 +15,6 @@ public class BaseTest extends BasePage {
         getDriver().manage()
                 .window()
                 .maximize();
-        getDriver().get(LINK_ADDRESS);
         getDriver().manage()
                 .timeouts()
                 .implicitlyWait(IMPLICITLY_WAIT_TIME, TimeUnit.SECONDS);
