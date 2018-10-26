@@ -14,5 +14,6 @@ public class ClickSteps {
     @When("^Click field (.+)")
     public void clickFieldXxx(String fieldName) {
         googlePage.textInput.sendKeys("aaaaa");
+        System.out.print("dupa");
     }
 }
