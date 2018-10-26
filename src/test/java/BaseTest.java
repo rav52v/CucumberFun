@@ -3,9 +3,7 @@ package test.java;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import main.utils.BasePage;
-
 import java.util.concurrent.TimeUnit;
-
 import static main.utils.WebDriverProvider.*;
 
 public class BaseTest extends BasePage {
