@@ -15,7 +15,7 @@ public class LogInPage extends BasePage {
     @FindBy (css = "[name='Password']")
     private WebElement passwordInput;
 
-    @FindBy (css = "[name='Login']")
+    @FindBy (css = "[type='submit']")
     private WebElement submitBtn;
 
     public void logIn(String login, String password){
