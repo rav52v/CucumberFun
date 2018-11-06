@@ -23,7 +23,7 @@ public class BaseTest extends BasePage {
 
     @After
     public void afterTest() throws InterruptedException {
-        Thread.sleep(3000);
+        Thread.sleep(2000);
         closeDriver();
     }
 }
