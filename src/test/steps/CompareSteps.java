@@ -9,6 +9,6 @@ public class CompareSteps {
 
     @Then("^Check if something$")
     public void checkIfSomething() {
-        Assert.assertTrue(!myAccPage.returnBtn().isDisplayed());
+        Assert.assertTrue(myAccPage.returnBtn().isDisplayed());
     }
 }
