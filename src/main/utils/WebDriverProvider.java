@@ -1,10 +1,8 @@
-package main.utils;
+package utils;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class WebDriverProvider {
     private static WebDriver driver;
@@ -12,7 +10,7 @@ public class WebDriverProvider {
 
     public static WebDriver getDriver(){
         if (driver==null) {
-            System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
+            WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
         }
         return driver;

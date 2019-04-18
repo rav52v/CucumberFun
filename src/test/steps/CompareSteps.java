@@ -1,8 +1,9 @@
-package test.steps;
+package steps;
 
 import cucumber.api.java.en.Then;
-import main.poms.MyAccountPage;
+
 import org.junit.jupiter.api.Assertions;
+import poms.MyAccountPage;
 
 
 public class CompareSteps {

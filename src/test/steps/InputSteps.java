@@ -1,8 +1,9 @@
-package test.steps;
+package steps;
 
 
 import cucumber.api.java.en.When;
-import main.poms.LogInPage;
+import poms.LogInPage;
+
 
 public class InputSteps {
 

@@ -1,8 +1,9 @@
-package main.poms;
+package poms;
 
-import main.utils.BasePage;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import utils.BasePage;
 
 public class LogInPage extends BasePage {
     public LogInPage() {

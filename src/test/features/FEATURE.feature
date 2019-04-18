@@ -3,7 +3,6 @@
 Feature: test
 
   Background: Warunki wstępne
-  Dupa
     Given Open http://executeautomation.com/demosite/Login.html page
 
   Scenario Outline: test!!!
