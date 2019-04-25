@@ -109,13 +109,13 @@
   </dependencies>
 
   <build>
-    <sourceDirectory>src/main</sourceDirectory>
-    <testSourceDirectory>src/test</testSourceDirectory>
-    <testResources>
-      <testResource>
-        <directory>features</directory>
-      </testResource>
-    </testResources>
+<!--    <sourceDirectory>src/main</sourceDirectory>-->
+<!--    <testSourceDirectory>src/test</testSourceDirectory>-->
+<!--    <testResources>-->
+<!--      <testResource>-->
+<!--        <directory>features</directory>-->
+<!--      </testResource>-->
+<!--    </testResources>-->
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
