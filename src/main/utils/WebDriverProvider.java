@@ -13,7 +13,7 @@ public class WebDriverProvider {
     if (driver == null) {
       WebDriverManager.chromedriver().setup();
       ChromeOptions options = new ChromeOptions();
-      options.setHeadless(true);
+      options.setHeadless(false);
       options.addArguments("--window-size=1500,4000");
       driver = new ChromeDriver(options);
     }
